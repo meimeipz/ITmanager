@@ -1,0 +1,102 @@
+<extend name="./Public/base.html" />
+<block name="title"><title>设备发放</title></block> 
+
+<block name="content">
+
+
+	
+	<p>
+		<label>资产编号:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<input type="text" name="zichannum" value="{$result[0]['zichanNum']}" disabled="disabled">
+	</p>
+
+	<p>
+		<label>资产描述:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<input type="text" name="description" value="{$result[0]['description']}" disabled="disabled">
+
+	</p>
+
+	<p>
+		<label>使用部门:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<select name="bumen" id="bumen" style="width:160px;>
+  			
+			<option value="default">请选择部门</option>
+			<for start="0" end="24" name="i">
+				<option value="{$result[1][$i]}">{$result[1][$i]}</option>
+			</for>
+
+		</select>
+		
+	</p>
+	
+	<p>
+		<label>使用科室:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<select name="keshi" id="keshi" style="width:160px;">
+  			
+		</select>
+		
+	</p>
+	
+	<script type="text/javascript">
+		$("#bumen").change(function(){
+			
+			var bumen=$("#bumen").val();
+			$.post("{:U('Home/Equipment/getkeshi_ajax')}","bumen="+bumen,function(data){
+                        $("#keshi").empty();
+                        var count = data.length;
+                        var i = 0;
+                        var b="";
+                           for(i=0;i<count;i++){
+                               b+="<option value='"+data[i].keshi+"'>"+data[i].keshi+"</option>";
+                           }
+                        $("#keshi").append(b);
+			);
+		});
+
+	</script>
+
+	<p>
+		<label>使用人员:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<input type="text" name="user">
+		
+	</p>
+
+	<p>
+		<label>安装位置:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+		<input type="text" name="roomNum">
+		
+	</p>
+
+	<p>
+		<label>使用状态:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<input type="text" name="status">
+
+	</p>
+
+	<input type="submit" value="发放">
+	
+
+
+
+
+</block>

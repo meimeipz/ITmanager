@@ -1,0 +1,614 @@
+[ 2018-01-28T15:21:54+08:00 ] 127.0.0.1 /index.php?p=home&c=equipment&a=grantEquipment_update&zichanNum=510-0507&description=%E5%8F%B0%E5%BC%8F%E7%94%B5%E8%84%91%20%20%20%20HP%20DX2810
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `departments`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+NOTIC: [8] Undefined index: bumen C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1535 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2018-01-28T17:37:35+08:00 ] 127.0.0.1 /index.php?p=home&c=equipment&a=grantEquipment_update&zichanNum=510-0507&description=%E5%8F%B0%E5%BC%8F%E7%94%B5%E8%84%91%20%20%20%20HP%20DX2810
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+
+[ 2018-01-28T17:38:10+08:00 ] 127.0.0.1 /index.php?p=home&c=equipment&a=grantEquipment_update&zichanNum=510-0507&description=%E5%8F%B0%E5%BC%8F%E7%94%B5%E8%84%91%20%20%20%20HP%20DX2810
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+
+[ 2018-01-28T17:38:13+08:00 ] 127.0.0.1 /index.php?p=home&c=equipment&a=grantEquipment_update&zichanNum=510-0507&description=%E5%8F%B0%E5%BC%8F%E7%94%B5%E8%84%91%20%20%20%20HP%20DX2810
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+
+[ 2018-01-28T17:55:45+08:00 ] 127.0.0.1 /index.php?p=home&c=equipment&a=grantEquipment_update&zichanNum=512-0663&description=%E5%B7%A5%E4%BD%9C%E7%AB%99%20HPZ420
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `departments`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: list C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1536 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2018-01-28T18:08:14+08:00 ] 127.0.0.1 /index.php?p=home&c=equipment&a=grantEquipment_update&zichanNum=512-0663&description=%E5%B7%A5%E4%BD%9C%E7%AB%99%20HPZ420
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0052s ]
+SQL: SELECT DISTINCT  `bumen` FROM `departments`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: list C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1536 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\ThinkPHP\Common\functions.php:850) C:\wamp\www\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\ThinkPHP\Common\functions.php:850) C:\wamp\www\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\ThinkPHP\Common\functions.php:850) C:\wamp\www\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2018-01-28T18:10:12+08:00 ] 127.0.0.1 /index.php?p=home&c=equipment&a=grantEquipment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `zichannews` [ RunTime:0.0186s ]
+SQL: SHOW COLUMNS FROM `zichannews` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `zichannews` WHERE ( user='郭杰华' OR user='库存' )  [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined index: zichanNum C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1589 行.
+NOTIC: [8] Undefined variable: resutl C:\wamp\www\Application\Runtime\Cache\Home\91278cccd605923b2aad2d7a7364353e.php 第 1604 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2018-01-28T18:10:16+08:00 ] 127.0.0.1 /index.php?p=home&c=equipment&a=grantEquipment_update&zichanNum=512-0663&description=%E5%B7%A5%E4%BD%9C%E7%AB%99%20HPZ420
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0096s ]
+SQL: SELECT DISTINCT  `bumen` FROM `departments`  [ RunTime:0.0006s ]
+
+[ 2018-01-28T19:57:11+08:00 ] 127.0.0.1 /index.php?p=home&c=equipment&a=grantEquipment_update&zichanNum=512-0663&description=%E5%B7%A5%E4%BD%9C%E7%AB%99%20HPZ420
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017916s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `departments` [ RunTime:0.0053s ]
+SQL: SELECT DISTINCT  `bumen` FROM `departments`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Undefined variable: list C:\wamp\www\Application\Runtime\Cache\Home\51599afd0800689d771124a9ff52602d.php 第 1536 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012166s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\ThinkPHP\Common\functions.php:850) C:\wamp\www\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\ThinkPHP\Common\functions.php:850) C:\wamp\www\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\ThinkPHP\Common\functions.php:850) C:\wamp\www\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017077s ]
+

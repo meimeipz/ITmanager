@@ -1,0 +1,20 @@
+[ 2017-05-17T19:08:44+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001641s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001941s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009531s ]
+
