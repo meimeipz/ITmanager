@@ -48,24 +48,61 @@
 		</select>
 		
 	</p>
-	
+
+
 	<script type="text/javascript">
+
+	$('#bumen').click(function(){  
+          $(this).change(function(){  
+              var   objectModel = {};  
+              var   value = $(this).val();  
+              var   type = $(this).attr('id');  
+              objectModel[bumen] =value;  
+              $.ajax({  
+                  cache:false,  
+                  type:"POST",  
+                  url:"index.php?c=equipment&a=getkeshi_ajax",  
+                  dataType:"json",  
+                  data:objectModel,  
+                  timeout:30000,  
+                  error:function(){  
+                      alert("返回数据错误");  
+                  },  
+                  success:function(data){  
+                      $("#keshi").empty();  
+                      var count = data.length;  
+                      var i = 0;  
+                      var b="";  
+                         for(i=0;i<count;i++){  
+                             b+="<option value='"+data[i].keshi+"'>"+data[i].keshi+"</option>";  
+                         }  
+                      $("#keshi").append(b);  
+                  }  
+              });  
+             });  
+        }  
+    ); 
+
+    </script> 
+
+	
+	<!--script type="text/javascript">
 		$("#bumen").change(function(){
-			
+
 			var bumen=$("#bumen").val();
-			$.post("{:U('Home/Equipment/getkeshi_ajax')}","bumen="+bumen,function(data){
+			$.post("{:U('Equipment/getkeshi_ajax')}","bumen="+bumen,function(data){
                         $("#keshi").empty();
                         var count = data.length;
                         var i = 0;
                         var b="";
-                           for(i=0;i<count;i++){
+                        for(i=0;i<count;i++){
                                b+="<option value='"+data[i].keshi+"'>"+data[i].keshi+"</option>";
-                           }
+                        }
                         $("#keshi").append(b);
-			);
+			});
 		});
 
-	</script>
+	</script-->
 
 	<p>
 		<label>使用人员:</label>

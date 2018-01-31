@@ -69,7 +69,10 @@ class EquipmentController extends Controller{
 
         dump($bumenInfo);
         $keshiInfo=M("departments")->WHERE("bumen=$bumenInfo")->select();
-        $this->ajaxReturn($keshiInfo,"JSON");
+
+        dump($keshiInfo);
+        //$this->ajaxReturn($keshiInfo,"JSON");
+        $this->display();
     }//subject_media_add_ajax()end
 
 

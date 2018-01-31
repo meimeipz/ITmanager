@@ -1538,7 +1538,7 @@
 		<select name="bumen" id="bumen" style="width:160px;>
   			
 			<option value="default">请选择部门</option>
-			<?php $__FOR_START_83344209__=0;$__FOR_END_83344209__=24;for($i=$__FOR_START_83344209__;$i < $__FOR_END_83344209__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
+			<?php $__FOR_START_1755389163__=0;$__FOR_END_1755389163__=24;for($i=$__FOR_START_1755389163__;$i < $__FOR_END_1755389163__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
 
 		</select>
 		
@@ -1554,24 +1554,61 @@
 		</select>
 		
 	</p>
-	
+
+
 	<script type="text/javascript">
+
+	$('#bumen').click(function(){  
+          $(this).change(function(){  
+              var   objectModel = {};  
+              var   value = $(this).val();  
+              var   type = $(this).attr('id');  
+              objectModel[bumen] =value;  
+              $.ajax({  
+                  cache:false,  
+                  type:"POST",  
+                  url:"index.php?c=equipment&a=getkeshi_ajax",  
+                  dataType:"json",  
+                  data:objectModel,  
+                  timeout:30000,  
+                  error:function(){  
+                      alert("返回数据错误");  
+                  },  
+                  success:function(data){  
+                      $("#keshi").empty();  
+                      var count = data.length;  
+                      var i = 0;  
+                      var b="";  
+                         for(i=0;i<count;i++){  
+                             b+="<option value='"+data[i].keshi+"'>"+data[i].keshi+"</option>";  
+                         }  
+                      $("#keshi").append(b);  
+                  }  
+              });  
+             });  
+        }  
+    ); 
+
+    </script> 
+
+	
+	<!--script type="text/javascript">
 		$("#bumen").change(function(){
-			
+
 			var bumen=$("#bumen").val();
-			$.post("<?php echo U('Home/Equipment/getkeshi_ajax');?>","bumen="+bumen,function(data){
+			$.post("<?php echo U('Equipment/getkeshi_ajax');?>","bumen="+bumen,function(data){
                         $("#keshi").empty();
                         var count = data.length;
                         var i = 0;
                         var b="";
-                           for(i=0;i<count;i++){
+                        for(i=0;i<count;i++){
                                b+="<option value='"+data[i].keshi+"'>"+data[i].keshi+"</option>";
-                           }
+                        }
                         $("#keshi").append(b);
-			);
+			});
 		});
 
-	</script>
+	</script-->
 
 	<p>
 		<label>使用人员:</label>
