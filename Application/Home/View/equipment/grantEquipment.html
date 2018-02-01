@@ -26,6 +26,9 @@
           <!--th class="nosort">序号</th-->
           <th>资产编号</th>
           <th>资产描述</th>
+          <th>使用部门</th>
+          <th>使用科室</th>
+          <th>使用人</th>
           <th>状态</th>
           <th>操作</th>
         </tr>
@@ -37,8 +40,11 @@
 				<td>{$i}</td>
 				<td>{$vo['zichannum']}</td>
 				<td>{$vo['description']}</td>
+				<td>{$vo['bumen']}</td>
+				<td>{$vo['keshi']}</td>
+				<td>{$vo['user']}</td>
 				<td>{$vo['status']}</td>
-				<td><strong><a href="index.php?p=home&c=equipment&a=grantEquipment_info&zichanNum={$vo['zichannum']}&description={$vo['description']}">发放</a></strong></td>
+				<td><strong><a href="index.php?p=home&c=equipment&a=grantEquipment_info&zichanNum={$vo['zichannum']}">发放</a></strong></td>
 			</tr>
 		</volist>
       </tbody>

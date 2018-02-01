@@ -17,23 +17,50 @@ class ZichannewsModel extends \Think\Model{
  	public function getAll(){
 
  		$model=M('zichannews');
-		$result=$model->WHERE("user='郭杰华' OR user='库存'")->select();		
+		//$result=$model->WHERE("user='郭杰华' OR user='库存'")->select();
+		$result=$model->select();		
  		return $result;	
  	}
 
- 	public function updateInfo($zichannum,$bumen,$keshi,$roomNum,$status){
+ 	public function updateInfo($zichanNum,$bumen,$keshi,$user,$roomNum,$status){
 
  		$model=M('zichannews');
  		$data['bumen']=$bumen;
  		$date['keshi']=$keshi;
+ 		$data['user']=$user;
  		$data['roomNum']=$roomNum;
  		$data['status']=$status;
- 		$model->WHERE("zichannum='$zichannum'")->save($data);
+ 		$result=$model->WHERE("zichanNum='$zichanNum'")->save($data);
+
+ 		return $result;
 
  	}
 
 
- 	public function insertInfo(){
+ 	public function insertInfo($zichanNum,$bumen,$keshi,$user,$roomNum,$description,$serialNum,$status){
+
+ 		$model=M('zichannews');
+ 		$data['zichanNum']=$zichanNum;
+ 		$data['bumen']=$bumen;
+ 		$data['keshi']=$keshi;
+ 		$data['user']=$user;
+ 		$data['roomNum']=$roomNum;
+ 		$data['description']=$description;
+ 		$data['serialNum']=$serialNum;
+ 		$data['status']=$status;
+ 		$time=time();
+ 		$changeFlag=1;
+ 		$data['create_at']=$time;
+ 		$data['update_at']=$time;
+ 		$data['changeFlag']=$changeFlag;
+
+ 		$result=$model->add($data);
+ 		return $result;
+
+ 		
+
  		
  	}
+
+
 }

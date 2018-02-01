@@ -1534,6 +1534,9 @@
           <!--th class="nosort">序号</th-->
           <th>资产编号</th>
           <th>资产描述</th>
+          <th>使用部门</th>
+          <th>使用科室</th>
+          <th>使用人</th>
           <th>状态</th>
           <th>操作</th>
         </tr>
@@ -1544,8 +1547,11 @@
 				<td><?php echo ($i); ?></td>
 				<td><?php echo ($vo['zichannum']); ?></td>
 				<td><?php echo ($vo['description']); ?></td>
+				<td><?php echo ($vo['bumen']); ?></td>
+				<td><?php echo ($vo['keshi']); ?></td>
+				<td><?php echo ($vo['user']); ?></td>
 				<td><?php echo ($vo['status']); ?></td>
-				<td><strong><a href="index.php?p=home&c=equipment&a=grantEquipment_info&zichanNum=<?php echo ($vo['zichannum']); ?>&description=<?php echo ($vo['description']); ?>">发放</a></strong></td>
+				<td><strong><a href="index.php?p=home&c=equipment&a=grantEquipment_info&zichanNum=<?php echo ($vo['zichannum']); ?>">发放</a></strong></td>
 			</tr><?php endforeach; endif; else: echo "" ;endif; ?>
       </tbody>
     </table>

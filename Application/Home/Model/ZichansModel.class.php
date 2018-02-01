@@ -35,4 +35,16 @@ class ZichansModel extends \Think\Model{
  		$model->WHERE("zichannum='$zichannum'")->save($data);
 
  	}
+
+ 	public function getInfo($zichannum){
+
+ 		$model=M('zichans');
+
+ 		$result = $model->WHERE("zichannum='$zichannum'")->limit(1)->select();
+
+ 		return $result;
+
+ 	}
+
+
 }

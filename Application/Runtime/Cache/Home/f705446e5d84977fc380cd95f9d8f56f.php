@@ -1532,6 +1532,15 @@
 	</p>
 
 	<p>
+		<label>设备序列号:</label>
+
+		&nbsp; &nbsp; 
+
+		<input type="text" name="serialNum" value="<?php echo ($result[0]['serialNum']); ?>" disabled="disabled">
+
+	</p>
+
+	<p>
 		<label>使用部门:</label>
 
 		&nbsp; &nbsp; &nbsp; &nbsp; 
@@ -1539,7 +1548,7 @@
 		<select name="bumen" id="bumen" style="width:160px;>
   			
 			<option value="default">请选择部门</option>
-			<?php $__FOR_START_1249979159__=0;$__FOR_END_1249979159__=24;for($i=$__FOR_START_1249979159__;$i < $__FOR_END_1249979159__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
+			<?php $__FOR_START_2017913883__=0;$__FOR_END_2017913883__=24;for($i=$__FOR_START_2017913883__;$i < $__FOR_END_2017913883__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
 
 		</select>
 		
@@ -1557,39 +1566,6 @@
 	</p>
 
 
-	<script type="text/javascript">
-
-	$('#bumen').click(function(){  
-          $(this).change(function(){
-              var   bumen = $(this).val();  
-              //var   type = $(this).attr('id');  
-              $.ajax({  
-                  cache:false,  
-                  type:"POST",  
-                  //url:"<?php echo U('Equipment:getkeshi_ajax');?>,
-                  url:"index.php?c=equipment&a=getkeshi_ajax",  
-                  dataType:"json",  
-                  data:{bumen: bumen},  
-                  timeout:30000,  
-                  error:function(){  
-                      alert("error");  
-                  },  
-                  success:function(data){  
-
-                   	  //alert("success");		
-                      $("#keshi").empty();
-                      var b="";
-                      for(var d in data){
-                      	b+="<option value='"+data[d]+"'>"+data[d]+"</option>";
-                      }	  
-                      $("#keshi").append(b);  
-                  }  
-              });  
-             });  
-        }  
-    ); 
-
-    </script> 
 
 	
 	<!--script type="text/javascript">
@@ -1645,6 +1621,42 @@
 	
 
 	</form>
+
+
+	<script type="text/javascript">
+
+	$('#bumen').click(function(){  
+          $(this).change(function(){
+              var   bumen = $(this).val();  
+              //var   type = $(this).attr('id');  
+              $.ajax({  
+                  cache:false,  
+                  type:"POST",  
+                  //url:"<?php echo U('Equipment:getkeshi_ajax');?>,
+                  url:"index.php?c=equipment&a=getkeshi_ajax",  
+                  dataType:"json",  
+                  data:{bumen: bumen},  
+                  timeout:30000,  
+                  error:function(){  
+                      alert("error");  
+                  },  
+                  success:function(data){  
+
+                   	  //alert("success");		
+                      $("#keshi").empty();
+                      var b="";
+                      for(var d in data){
+                      	b+="<option value='"+data[d]+"'>"+data[d]+"</option>";
+                      }	  
+                      $("#keshi").append(b);  
+                  }  
+              });  
+             });  
+        }  
+    ); 
+
+    </script> 
+
 
 
 

@@ -24,6 +24,15 @@
 	</p>
 
 	<p>
+		<label>设备序列号:</label>
+
+		&nbsp; &nbsp; 
+
+		<input type="text" name="serialNum" value="{$result[0]['serialNum']}" disabled="disabled">
+
+	</p>
+
+	<p>
 		<label>使用部门:</label>
 
 		&nbsp; &nbsp; &nbsp; &nbsp; 
@@ -51,39 +60,6 @@
 	</p>
 
 
-	<script type="text/javascript">
-
-	$('#bumen').click(function(){  
-          $(this).change(function(){
-              var   bumen = $(this).val();  
-              //var   type = $(this).attr('id');  
-              $.ajax({  
-                  cache:false,  
-                  type:"POST",  
-                  //url:"{:U('Equipment:getkeshi_ajax')},
-                  url:"index.php?c=equipment&a=getkeshi_ajax",  
-                  dataType:"json",  
-                  data:{bumen: bumen},  
-                  timeout:30000,  
-                  error:function(){  
-                      alert("error");  
-                  },  
-                  success:function(data){  
-
-                   	  //alert("success");		
-                      $("#keshi").empty();
-                      var b="";
-                      for(var d in data){
-                      	b+="<option value='"+data[d]+"'>"+data[d]+"</option>";
-                      }	  
-                      $("#keshi").append(b);  
-                  }  
-              });  
-             });  
-        }  
-    ); 
-
-    </script> 
 
 	
 	<!--script type="text/javascript">
@@ -139,6 +115,42 @@
 	
 
 	</form>
+
+
+	<script type="text/javascript">
+
+	$('#bumen').click(function(){  
+          $(this).change(function(){
+              var   bumen = $(this).val();  
+              //var   type = $(this).attr('id');  
+              $.ajax({  
+                  cache:false,  
+                  type:"POST",  
+                  //url:"{:U('Equipment:getkeshi_ajax')},
+                  url:"index.php?c=equipment&a=getkeshi_ajax",  
+                  dataType:"json",  
+                  data:{bumen: bumen},  
+                  timeout:30000,  
+                  error:function(){  
+                      alert("error");  
+                  },  
+                  success:function(data){  
+
+                   	  //alert("success");		
+                      $("#keshi").empty();
+                      var b="";
+                      for(var d in data){
+                      	b+="<option value='"+data[d]+"'>"+data[d]+"</option>";
+                      }	  
+                      $("#keshi").append(b);  
+                  }  
+              });  
+             });  
+        }  
+    ); 
+
+    </script> 
+
 
 
 </block>

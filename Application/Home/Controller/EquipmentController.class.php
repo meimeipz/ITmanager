@@ -7,6 +7,7 @@
  */
 
 namespace Home\Controller;
+use Home\Model\ZichansModel;
 use Home\Model\ZichannewsModel;
 use Home\Model\DepartmentsModel;
 use Think\Controller;
@@ -45,9 +46,23 @@ class EquipmentController extends Controller{
 
 
 
-		$list1['zichanNum']=$_GET['zichanNum'];
+		$zichanNum=$_GET['zichanNum'];
 
-		$list1['description']=$_GET['description'];
+		//dump($zichanNum);
+
+		$m=new ZichansModel();
+
+		$list=$m->getInfo($zichanNum);
+
+		//dump($list);
+
+		$list1['zichanNum']=$list[0]['zichannum'];
+
+		$list1['description']=$list[0]['description'];
+
+		$list1['serialNum']=$list[0]['serialnum'];
+
+		//dump($list1);
 
 		$model = new DepartmentsModel();
 
@@ -83,6 +98,8 @@ class EquipmentController extends Controller{
     public function grantEquipment_update(){
 
     	$zichannum = $_POST['zichannum'];
+    	$description=$_POST['description'];
+    	$serialNum=$_POST['serialNum'];
     	$bumen = $_POST['bumen'];
     	$keshi = $_POST['keshi'];
     	$user = $_POST['user'];
@@ -92,8 +109,32 @@ class EquipmentController extends Controller{
     	$zicchanModel = new ZichansModel();
     	$zichannewModel = new ZichannewsModel();
 
-    	if($zicchanModel->isCheck()==0):
+    	//$result=$zichannewModel->updateInfo($zichannum,$bumen,$keshi,$roomNum,$status);
+
+    	//echo $zichannum,$bumen,$keshi,$roomNum,$status;
+
+    
+
+    	if($zicchanModel->isCheck()==0){
+
+    		dump($zicchanModel->isCheck());
+    		$zicchanModel->updateCheck();
+    		$zichannewModel->insertInfo($zichanNum,$bumen,$keshi,$user,$roomNum,$description,$serialNum,$status);
+    	}else{
+
+    		$zichannewModel->updateInfo($zichannum,$bumen,$keshi,$roomNum,$status);
+    	}
+
+    	
+
+    	//$this->redirect('index.php?p=home&c=equipment&a=grantEquipment');
+    	$this->grantEquipment();
+    		
+    	
+
+
     }
+    	
 
 
     
