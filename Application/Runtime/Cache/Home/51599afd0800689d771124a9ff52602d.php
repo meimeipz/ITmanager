@@ -1538,7 +1538,7 @@
 		<select name="bumen" id="bumen" style="width:160px;>
   			
 			<option value="default">请选择部门</option>
-			<?php $__FOR_START_1755389163__=0;$__FOR_END_1755389163__=24;for($i=$__FOR_START_1755389163__;$i < $__FOR_END_1755389163__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
+			<?php $__FOR_START_284405308__=0;$__FOR_END_284405308__=24;for($i=$__FOR_START_284405308__;$i < $__FOR_END_284405308__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
 
 		</select>
 		
@@ -1559,22 +1559,23 @@
 	<script type="text/javascript">
 
 	$('#bumen').click(function(){  
-          $(this).change(function(){  
-              var   objectModel = {};  
-              var   value = $(this).val();  
-              var   type = $(this).attr('id');  
-              objectModel[bumen] =value;  
+          $(this).change(function(){
+              var   bumen = $(this).val();  
+              //var   type = $(this).attr('id');  
               $.ajax({  
                   cache:false,  
                   type:"POST",  
+                  //url:"<?php echo U('Equipment:getkeshi_ajax');?>,
                   url:"index.php?c=equipment&a=getkeshi_ajax",  
                   dataType:"json",  
-                  data:objectModel,  
+                  data:{bumen: bumen},  
                   timeout:30000,  
                   error:function(){  
-                      alert("返回数据错误");  
+                      alert("error");  
                   },  
                   success:function(data){  
+
+                   	  //alert("success");		
                       $("#keshi").empty();  
                       var count = data.length;  
                       var i = 0;  

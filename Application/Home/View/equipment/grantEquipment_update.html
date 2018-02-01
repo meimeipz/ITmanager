@@ -53,22 +53,23 @@
 	<script type="text/javascript">
 
 	$('#bumen').click(function(){  
-          $(this).change(function(){  
-              var   objectModel = {};  
-              var   value = $(this).val();  
-              var   type = $(this).attr('id');  
-              objectModel[bumen] =value;  
+          $(this).change(function(){
+              var   bumen = $(this).val();  
+              //var   type = $(this).attr('id');  
               $.ajax({  
                   cache:false,  
                   type:"POST",  
+                  //url:"{:U('Equipment:getkeshi_ajax')},
                   url:"index.php?c=equipment&a=getkeshi_ajax",  
                   dataType:"json",  
-                  data:objectModel,  
+                  data:{bumen: bumen},  
                   timeout:30000,  
                   error:function(){  
-                      alert("返回数据错误");  
+                      alert("error");  
                   },  
                   success:function(data){  
+
+                   	  //alert("success");		
                       $("#keshi").empty();  
                       var count = data.length;  
                       var i = 0;  

@@ -65,14 +65,15 @@ class EquipmentController extends Controller{
 
 	//子课程添加ajax下拉菜单二级联动
     public function getkeshi_ajax(){
+
         $bumenInfo = $_POST['bumen'];
+        //dump($bumenInfo);
 
-        dump($bumenInfo);
-        $keshiInfo=M("departments")->WHERE("bumen=$bumenInfo")->select();
-
-        dump($keshiInfo);
-        //$this->ajaxReturn($keshiInfo,"JSON");
-        $this->display();
+        //dump($bumenInfo);
+        $keshiInfo=M("departments")->WHERE("bumen='$bumenInfo'")->select();
+        $result=json_encode($keshiInfo);
+        $this->ajaxReturn($result,"JSON");
+        //$this->display();
     }//subject_media_add_ajax()end
 
 
