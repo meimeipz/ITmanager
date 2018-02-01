@@ -1538,7 +1538,7 @@
 		<select name="bumen" id="bumen" style="width:160px;>
   			
 			<option value="default">请选择部门</option>
-			<?php $__FOR_START_284405308__=0;$__FOR_END_284405308__=24;for($i=$__FOR_START_284405308__;$i < $__FOR_END_284405308__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
+			<?php $__FOR_START_549344954__=0;$__FOR_END_549344954__=24;for($i=$__FOR_START_549344954__;$i < $__FOR_END_549344954__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
 
 		</select>
 		
@@ -1576,13 +1576,11 @@
                   success:function(data){  
 
                    	  //alert("success");		
-                      $("#keshi").empty();  
-                      var count = data.length;  
-                      var i = 0;  
-                      var b="";  
-                         for(i=0;i<count;i++){  
-                             b+="<option value='"+data[i].keshi+"'>"+data[i].keshi+"</option>";  
-                         }  
+                      $("#keshi").empty();
+                      var b="";
+                      for(var d in data){
+                      	b+="<option value='"+data[d]+"'>"+data[d]+"</option>";
+                      }	  
                       $("#keshi").append(b);  
                   }  
               });  
@@ -1633,8 +1631,13 @@
 
 		&nbsp; &nbsp; &nbsp; &nbsp; 
 
-		<input type="text" name="status">
-
+		<select name="status" id="status" style="width:160px;">
+			<option value="正常在用">正常在用</option>
+			<option value="闲置">闲置</option>
+			<option value="维修">维修</option>
+			<option value="待报废">待报废</option> 			
+		</select>
+		
 	</p>
 
 	<input type="submit" value="发放">

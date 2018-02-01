@@ -1511,101 +1511,141 @@
 			<div>	
 			
 
-	<!--查询库存设备信息>
-	<div>
 
-		<label>资产编号</label>
-		<input type="text" name="zichanNum">
+	<form method="POST" action="index.php?p=home&c=equipment&a=grantEquipment_update">
+
+	<p>
+		<label>资产编号:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<input type="text" name="zichannum" value="<?php echo ($result[0]['zichanNum']); ?>" disabled="disabled">
+	</p>
+
+	<p>
+		<label>资产描述:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<input type="text" name="description" value="<?php echo ($result[0]['description']); ?>" disabled="disabled">
+
+	</p>
+
+	<p>
+		<label>使用部门:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<select name="bumen" id="bumen" style="width:160px;>
+  			
+			<option value="default">请选择部门</option>
+			<?php $__FOR_START_1249979159__=0;$__FOR_END_1249979159__=24;for($i=$__FOR_START_1249979159__;$i < $__FOR_END_1249979159__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
+
+		</select>
 		
-		&nbsp&nbsp
-		<input type="submit" value="查询">
-
-	</div>
-
-	<p> <hr> </p>
+	</p>
 	
-	-->
+	<p>
+		<label>使用科室:</label>
 
-	<div class="TabBox">
-	<table class="data-table" width="100%">
-      <thead>
-        <tr>
-          <th>序号</th>	
-          <!--th class="nosort">序号</th-->
-          <th>资产编号</th>
-          <th>资产描述</th>
-          <th>状态</th>
-          <th>操作</th>
-        </tr>
-      </thead>
-      <tbody>
+		&nbsp; &nbsp; &nbsp; &nbsp; 
 
-        <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-				<td><?php echo ($i); ?></td>
-				<td><?php echo ($vo['zichannum']); ?></td>
-				<td><?php echo ($vo['description']); ?></td>
-				<td><?php echo ($vo['status']); ?></td>
-				<td><strong><a href="index.php?p=home&c=equipment&a=grantEquipment_info&zichanNum=<?php echo ($vo['zichannum']); ?>&description=<?php echo ($vo['description']); ?>">发放</a></strong></td>
-			</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-      </tbody>
-    </table>
-	</div>
-	<!--TabBox-->
-
-<script src="/Public/js/jquery-1.11.1.min.js"></script> 
-<script src="/Public/js/jquery.dataTables.js"></script>
-<link rel="stylesheet" href="/Public/css/jquery.dataTables.css" />
-<style>
-.TabBox{height:500px;overflow-y:auto;overflow-x:hidden;}
-</style> 
-<script>
-$(document).ready(function(){
-	$('.data-table').dataTable({
-		"searching": true,  //是否允许Datatables开启本地搜索
-		"paging": true,  //是否开启本地分页
-		"lengthChange": true,  //是否允许用户改变表格每页显示的记录数
-		"info": false,   //控制是否显示表格左下角的信息
-		"columnDefs": [{
-			"targets": 'nosort',  //列的样式名
-			"orderable": false    //包含上样式名‘nosort’的禁止排序
-		}],
-		//跟数组下标一样，第一列从0开始，这里表格初始化时，第四列默认降序
-        "order": [3]  //asc升序   desc降序  "order": [[ 3, "desc" ]]默认第四列为降序排列
-	});
-});
-</script>
+		<select name="keshi" id="keshi" style="width:160px;">
+  			
+		</select>
+		
+	</p>
 
 
-	<!--
+	<script type="text/javascript">
 
-	<div>
-		<table border="1">
-			<thead>
-				<tr>
-					<th>序号</th>
-					<th>资产编号</th>
-					<th>资产描述</th>
-				</tr>
-			</thead>	
-			<tbody>
-				<?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-					<td><?php echo ($vo['id']); ?></td>
-					<td><?php echo ($vo['zichanNum']); ?></td>
-					<td><?php echo ($vo['description']); ?></td>
-					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-			</tbody>	
-			</thead>
-					
-		</table>
+	$('#bumen').click(function(){  
+          $(this).change(function(){
+              var   bumen = $(this).val();  
+              //var   type = $(this).attr('id');  
+              $.ajax({  
+                  cache:false,  
+                  type:"POST",  
+                  //url:"<?php echo U('Equipment:getkeshi_ajax');?>,
+                  url:"index.php?c=equipment&a=getkeshi_ajax",  
+                  dataType:"json",  
+                  data:{bumen: bumen},  
+                  timeout:30000,  
+                  error:function(){  
+                      alert("error");  
+                  },  
+                  success:function(data){  
+
+                   	  //alert("success");		
+                      $("#keshi").empty();
+                      var b="";
+                      for(var d in data){
+                      	b+="<option value='"+data[d]+"'>"+data[d]+"</option>";
+                      }	  
+                      $("#keshi").append(b);  
+                  }  
+              });  
+             });  
+        }  
+    ); 
+
+    </script> 
 
 	
-	</div>
+	<!--script type="text/javascript">
+		$("#bumen").change(function(){
 
-	<hr>
+			var bumen=$("#bumen").val();
+			$.post("<?php echo U('Equipment/getkeshi_ajax');?>","bumen="+bumen,function(data){
+                        $("#keshi").empty();
+                        var count = data.length;
+                        var i = 0;
+                        var b="";
+                        for(i=0;i<count;i++){
+                               b+="<option value='"+data[i].keshi+"'>"+data[i].keshi+"</option>";
+                        }
+                        $("#keshi").append(b);
+			});
+		});
 
-	-->
+	</script-->
 
-	<!--<?php echo ($resutl['zichanNum']); ?>-->
+	<p>
+		<label>使用人员:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<input type="text" name="user">
+		
+	</p>
+
+	<p>
+		<label>安装位置:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+		<input type="text" name="roomNum">
+		
+	</p>
+
+	<p>
+		<label>使用状态:</label>
+
+		&nbsp; &nbsp; &nbsp; &nbsp; 
+
+		<select name="status" id="status" style="width:160px;">
+			<option value="正常在用">正常在用</option>
+			<option value="闲置">闲置</option>
+			<option value="维修">维修</option>
+			<option value="待报废">待报废</option> 			
+		</select>
+		
+	</p>
+
+	<input type="submit" value="发放">
+	
+
+	</form>
+
 
 
 			</div>

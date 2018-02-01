@@ -39,7 +39,9 @@ class EquipmentController extends Controller{
 		
 	}
 
-	public function grantEquipment_update(){
+
+	//获取发放设备的资产信息及遍历部门信息
+	public function grantEquipment_info(){
 
 
 
@@ -55,26 +57,46 @@ class EquipmentController extends Controller{
 		//
 		$result=[$list1,$list2];
 
+
+		$result1=M('departments')->WHERE('')->select();
+
 		//dump($result);
 
 		$this->assign('result',$result);
 
-		$this->display('equipment:grantEquipment_update');
+		$this->display('equipment:grantEquipment_info');
 
 	}
 
-	//子课程添加ajax下拉菜单二级联动
+	//科室信息添加ajax下拉菜单二级联动
     public function getkeshi_ajax(){
 
         $bumenInfo = $_POST['bumen'];
-        //dump($bumenInfo);
 
-        //dump($bumenInfo);
-        $keshiInfo=M("departments")->WHERE("bumen='$bumenInfo'")->select();
-        $result=json_encode($keshiInfo);
-        $this->ajaxReturn($result,"JSON");
-        //$this->display();
-    }//subject_media_add_ajax()end
+        $keshiInfo=M("departments")->WHERE("bumen='$bumenInfo'")->getField('keshi',true);
+
+        $this->ajaxReturn($keshiInfo,"JSON");
+       
+    }
+
+
+    public function grantEquipment_update(){
+
+    	$zichannum = $_POST['zichannum'];
+    	$bumen = $_POST['bumen'];
+    	$keshi = $_POST['keshi'];
+    	$user = $_POST['user'];
+    	$roomNum = $_POST['roomNum'];
+    	$status = $_POST['status'];
+
+    	$zicchanModel = new ZichansModel();
+    	$zichannewModel = new ZichannewsModel();
+
+    	if($zicchanModel->isCheck()==0):
+    }
+
+
+    
 
 
 }

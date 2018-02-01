@@ -4,7 +4,8 @@
 <block name="content">
 
 
-	
+	<form method="POST" action="index.php?p=home&c=equipment&a=grantEquipment_update">
+
 	<p>
 		<label>资产编号:</label>
 
@@ -70,13 +71,11 @@
                   success:function(data){  
 
                    	  //alert("success");		
-                      $("#keshi").empty();  
-                      var count = data.length;  
-                      var i = 0;  
-                      var b="";  
-                         for(i=0;i<count;i++){  
-                             b+="<option value='"+data[i].keshi+"'>"+data[i].keshi+"</option>";  
-                         }  
+                      $("#keshi").empty();
+                      var b="";
+                      for(var d in data){
+                      	b+="<option value='"+data[d]+"'>"+data[d]+"</option>";
+                      }	  
                       $("#keshi").append(b);  
                   }  
               });  
@@ -127,14 +126,19 @@
 
 		&nbsp; &nbsp; &nbsp; &nbsp; 
 
-		<input type="text" name="status">
-
+		<select name="status" id="status" style="width:160px;">
+			<option value="正常在用">正常在用</option>
+			<option value="闲置">闲置</option>
+			<option value="维修">维修</option>
+			<option value="待报废">待报废</option> 			
+		</select>
+		
 	</p>
 
 	<input type="submit" value="发放">
 	
 
-
+	</form>
 
 
 </block>

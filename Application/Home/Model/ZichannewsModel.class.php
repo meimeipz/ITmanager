@@ -20,4 +20,20 @@ class ZichannewsModel extends \Think\Model{
 		$result=$model->WHERE("user='郭杰华' OR user='库存'")->select();		
  		return $result;	
  	}
+
+ 	public function updateInfo($zichannum,$bumen,$keshi,$roomNum,$status){
+
+ 		$model=M('zichannews');
+ 		$data['bumen']=$bumen;
+ 		$date['keshi']=$keshi;
+ 		$data['roomNum']=$roomNum;
+ 		$data['status']=$status;
+ 		$model->WHERE("zichannum='$zichannum'")->save($data);
+
+ 	}
+
+
+ 	public function insertInfo(){
+ 		
+ 	}
 }
