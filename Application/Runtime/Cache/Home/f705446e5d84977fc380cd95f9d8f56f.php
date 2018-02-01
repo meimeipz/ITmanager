@@ -1519,7 +1519,7 @@
 
 		&nbsp; &nbsp; &nbsp; &nbsp; 
 
-		<input type="text" name="zichannum" value="<?php echo ($result[0]['zichanNum']); ?>" disabled="disabled">
+		<input type="text" name="zichannum" value="<?php echo ($result[0]['zichanNum']); ?>" readonly="readonly">
 	</p>
 
 	<p>
@@ -1527,7 +1527,7 @@
 
 		&nbsp; &nbsp; &nbsp; &nbsp; 
 
-		<input type="text" name="description" value="<?php echo ($result[0]['description']); ?>" disabled="disabled">
+		<input type="text" name="description" value="<?php echo ($result[0]['description']); ?>" readonly="readonly">
 
 	</p>
 
@@ -1536,7 +1536,7 @@
 
 		&nbsp; &nbsp; 
 
-		<input type="text" name="serialNum" value="<?php echo ($result[0]['serialNum']); ?>" disabled="disabled">
+		<input type="text" name="serialNum" value="<?php echo ($result[0]['serialNum']); ?>" readonly="readonly">
 
 	</p>
 
@@ -1548,7 +1548,7 @@
 		<select name="bumen" id="bumen" style="width:160px;>
   			
 			<option value="default">请选择部门</option>
-			<?php $__FOR_START_2017913883__=0;$__FOR_END_2017913883__=24;for($i=$__FOR_START_2017913883__;$i < $__FOR_END_2017913883__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
+			<?php $__FOR_START_1988__=0;$__FOR_END_1988__=24;for($i=$__FOR_START_1988__;$i < $__FOR_END_1988__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
 
 		</select>
 		

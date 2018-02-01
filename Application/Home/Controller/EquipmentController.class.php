@@ -97,7 +97,8 @@ class EquipmentController extends Controller{
 
     public function grantEquipment_update(){
 
-    	$zichannum = $_POST['zichannum'];
+    	//$zichannum = $_POST['zichannum'];
+    	$zichannum=$_POST['zichannum'];
     	$description=$_POST['description'];
     	$serialNum=$_POST['serialNum'];
     	$bumen = $_POST['bumen'];
@@ -109,12 +110,14 @@ class EquipmentController extends Controller{
     	$zicchanModel = new ZichansModel();
     	$zichannewModel = new ZichannewsModel();
 
+    	//dump($zichannewModel->updateInfo($zichannum,$bumen,$keshi,$roomNum,$status));
+
     	//$result=$zichannewModel->updateInfo($zichannum,$bumen,$keshi,$roomNum,$status);
 
     	//echo $zichannum,$bumen,$keshi,$roomNum,$status;
 
-    
-
+    	
+    	
     	if($zicchanModel->isCheck()==0){
 
     		dump($zicchanModel->isCheck());
@@ -124,10 +127,10 @@ class EquipmentController extends Controller{
 
     		$zichannewModel->updateInfo($zichannum,$bumen,$keshi,$roomNum,$status);
     	}
+    	
 
     	
 
-    	//$this->redirect('index.php?p=home&c=equipment&a=grantEquipment');
     	$this->grantEquipment();
     		
     	
