@@ -25,11 +25,13 @@ class ZichannewsModel extends \Think\Model{
  	public function updateInfo($zichanNum,$bumen,$keshi,$user,$roomNum,$status){
 
  		$model=M('zichannews');
+ 		$data['zichanNum']=$zichanNum;
  		$data['bumen']=$bumen;
- 		$date['keshi']=$keshi;
+ 		$data['keshi']=$keshi;
  		$data['user']=$user;
  		$data['roomNum']=$roomNum;
  		$data['status']=$status;
+ 		$data['changeFlag']=1;
  		$result=$model->WHERE("zichanNum='$zichanNum'")->save($data);
 
  		return $result;

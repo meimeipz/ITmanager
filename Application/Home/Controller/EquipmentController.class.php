@@ -18,7 +18,7 @@ class EquipmentController extends Controller{
 
 
 		//将资产编号传输到后台
-		$model=new ZichannewsModel();
+		$model=new ZichansModel();
 
 		$result=$model->getAll();
 
@@ -98,7 +98,7 @@ class EquipmentController extends Controller{
     public function grantEquipment_update(){
 
     	//$zichannum = $_POST['zichannum'];
-    	$zichannum=$_POST['zichannum'];
+    	$zichanNum=$_POST['zichannum'];
     	$description=$_POST['description'];
     	$serialNum=$_POST['serialNum'];
     	$bumen = $_POST['bumen'];
@@ -106,6 +106,19 @@ class EquipmentController extends Controller{
     	$user = $_POST['user'];
     	$roomNum = $_POST['roomNum'];
     	$status = $_POST['status'];
+
+    	/**
+    	dump($zichannum);
+    	dump($description);
+    	dump($serialNum);
+    	dump($bumen);
+    	dump($keshi);
+    	dump($user);
+    	dump($roomNum);
+    	dump($status);
+    	**/
+		
+    	
 
     	$zicchanModel = new ZichansModel();
     	$zichannewModel = new ZichannewsModel();
@@ -120,12 +133,12 @@ class EquipmentController extends Controller{
     	
     	if($zicchanModel->isCheck()==0){
 
-    		dump($zicchanModel->isCheck());
+    		//dump($zicchanModel->isCheck());
     		$zicchanModel->updateCheck();
     		$zichannewModel->insertInfo($zichanNum,$bumen,$keshi,$user,$roomNum,$description,$serialNum,$status);
     	}else{
 
-    		$zichannewModel->updateInfo($zichannum,$bumen,$keshi,$roomNum,$status);
+    		$zichannewModel->updateInfo($zichanNum,$bumen,$keshi,$user,$roomNum,$status);
     	}
     	
 

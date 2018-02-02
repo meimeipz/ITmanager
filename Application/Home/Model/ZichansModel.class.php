@@ -14,6 +14,15 @@ class ZichansModel extends \Think\Model{
  	/**
  	 * 查询设备信息
  	 */
+ 	
+ 	public function getAll(){
+
+ 		$model=M('zichans');
+		//$result=$model->WHERE("user='郭杰华' OR user='库存'")->select();
+		$result=$model->select();		
+ 		return $result;	
+ 	}
+
  	public function isCheck($zichannum){
  		$model=M('zichans');
  		$result=$model->WHERE("zichannum='$zichannum'")->select();
@@ -31,6 +40,7 @@ class ZichansModel extends \Think\Model{
  		$model=M('zichans');
 
  		$data['hasCheck']=1;
+
 
  		$model->WHERE("zichannum='$zichannum'")->save($data);
 

@@ -5,7 +5,7 @@ return array(
     'DB_HOST' => 'localhost',
     'DB_NAME' => 'eshop',
     'DB_USER' => 'root',
-    'DB_PWD'  => '',
+    'DB_PWD'  => 'root',
     'DB_PORT' => '3306',
     'DB_PREFIX' => '',
     //'TMPL_TEMPLATE_SUFFIX'=>'.tpl',

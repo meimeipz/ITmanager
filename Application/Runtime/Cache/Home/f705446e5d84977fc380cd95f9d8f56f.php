@@ -1548,7 +1548,7 @@
 		<select name="bumen" id="bumen" style="width:160px;>
   			
 			<option value="default">请选择部门</option>
-			<?php $__FOR_START_1988__=0;$__FOR_END_1988__=24;for($i=$__FOR_START_1988__;$i < $__FOR_END_1988__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
+			<?php $__FOR_START_1918322712__=0;$__FOR_END_1918322712__=24;for($i=$__FOR_START_1918322712__;$i < $__FOR_END_1918322712__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
 
 		</select>
 		
