@@ -8,7 +8,7 @@
 	<meta name="description" content="Xenon Boostrap Admin Panel" />
 	<meta name="author" content="" />
 	
-	<title>设备发放</title>
+	<title>创建任务</title>
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
 	<link rel="stylesheet" href="/Public/css/fonts/linecons/css/linecons.css">
@@ -196,7 +196,7 @@
 					<!-- class "auto-inherit-active-class" will automatically add "active" class for parent elements who are marked already with class "active" -->
 
 
-					<li class="active opened active">
+					<li >
 						<a href="#">
 							<i class="linecons-desktop"></i>
 							<span class="title">设备管理</span>
@@ -242,37 +242,28 @@
 					</li>	
 					
 
-					<li >
+					<li class="active opened active">
 						<a href="#">
 							<i class="linecons-cog"></i>
-							<span class="title">配置管理</span>
+							<span class="title">任务管理</span>
 						</a>
 						<ul>
 							<li class="active">
-								<a href="#">
-									<span class="title">用户配置</span>
+								<a href="index.php?p=home&c=task&a=createTask">
+									<span class="title">任务创建</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<span class="title">设备配置</span>
+									<span class="title">任务实施</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<span class="title">资产配置</span>
+									<span class="title">任务查询</span>
 								</a>
 							</li>
-							<li>
-								<a href="#">
-									<span class="title">软件配置</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="title">运维配置</span>
-								</a>
-							</li>
+						
 						</ul>
 					</li>
 					
@@ -1511,121 +1502,160 @@
 			<div>	
 			
 
+	<div >
 
-	<form method="POST" action="index.php?p=home&c=equipment&a=grantEquipment_update">
+	<form method="post" action="index.php?p=home&c=task&a=createTask_ajax">
 
-	<p>
-		<label>资产编号:</label>
-
-		&nbsp; &nbsp; &nbsp; &nbsp; 
-
-		<input type="text" name="zichannum" value="<?php echo ($result[0]['zichanNum']); ?>" readonly="readonly">
-	</p>
-
-	<p>
-		<label>资产描述:</label>
-
-		&nbsp; &nbsp; &nbsp; &nbsp; 
-
-		<input type="text" name="description" value="<?php echo ($result[0]['description']); ?>" readonly="readonly">
-
-	</p>
-
-	<p>
-		<label>设备序列号:</label>
-
-		&nbsp; &nbsp; 
-
-		<input type="text" name="serialNum" value="<?php echo ($result[0]['serialNum']); ?>" readonly="readonly">
-
-	</p>
-
-	<p>
 		<label>使用部门:</label>
 
-		&nbsp; &nbsp; &nbsp; &nbsp; 
-
-		<select name="bumen" id="bumen" style="width:160px;>
+		<select name="bumen" id="bumen" style="width:160px;">
   			
 			<option value="default">请选择部门</option>
-			<?php $__FOR_START_1466775531__=0;$__FOR_END_1466775531__=24;for($i=$__FOR_START_1466775531__;$i < $__FOR_END_1466775531__;$i+=1){ ?><option value="<?php echo ($result[1][$i]); ?>"><?php echo ($result[1][$i]); ?></option><?php } ?>
+			<?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo); ?>"><?php echo ($vo); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+		
 
 		</select>
-		
-	</p>
-	
-	<p>
-		<label>使用科室:</label>
 
-		&nbsp; &nbsp; &nbsp; &nbsp; 
+		&nbsp;&nbsp;&nbsp;
+		<label>使用科室:</label>
 
 		<select name="keshi" id="keshi" style="width:160px;">
   			
 		</select>
 		
-	</p>
-
-
-
 	
-	<!--script type="text/javascript">
-		$("#bumen").change(function(){
-
-			var bumen=$("#bumen").val();
-			$.post("<?php echo U('Equipment/getkeshi_ajax');?>","bumen="+bumen,function(data){
-                        $("#keshi").empty();
-                        var count = data.length;
-                        var i = 0;
-                        var b="";
-                        for(i=0;i<count;i++){
-                               b+="<option value='"+data[i].keshi+"'>"+data[i].keshi+"</option>";
-                        }
-                        $("#keshi").append(b);
-			});
-		});
-
-	</script-->
-
-	<p>
-		<label>使用人员:</label>
-
-		&nbsp; &nbsp; &nbsp; &nbsp; 
-
+		
+		&nbsp;&nbsp;&nbsp;
+		<label>申请人:</label>
 		<input type="text" name="user">
-		
-	</p>
 
-	<p>
-		<label>安装位置:</label>
+		&nbsp;&nbsp;&nbsp;
+		<label>申请人岗位:</label>
+		<select name="user_role" style="width:160px;">
+			<option value="管理层">管理层</option>
+			<option value="总师/专家">总师/专家</option>
+			<option value="部长">部长</option>
+			<option value="科长/项目经理">科长/项目经理</option>
+			<option value="VSE">VSE</option>
+			<option value="项目组">项目组</option>
+			<option value="员工">员工</option>
 
-		&nbsp; &nbsp; &nbsp; &nbsp; 
-		<input type="text" name="roomNum">
-		
-	</p>
-
-	<p>
-		<label>使用状态:</label>
-
-		&nbsp; &nbsp; &nbsp; &nbsp; 
-
-		<select name="status" id="status" style="width:160px;">
-			<option value="正常在用">正常在用</option>
-			<option value="闲置">闲置</option>
-			<option value="维修">维修</option>
-			<option value="待报废">待报废</option> 			
 		</select>
+
+		&nbsp;&nbsp;&nbsp;
+		<label>房间号:</label>
+		<input type="text" name="roomNum">
+
+		&nbsp;&nbsp;&nbsp;
+		<label>联系方式:</label>
+		<input type="text" name="phone">
+
+		<br>
+		<br>
+
 		
-	</p>
+		<label>任务类型:</label>
+		<select name="taskType" style="width:160px;">
+			<option value="设备申请">设备申请</option>
+			<option value="设备归还">设备归还</option>
+			<option value="设备迁移">设备迁移</option>
+			<option value="设备维修">设备维修</option>
+		</select>
 
-	<input type="submit" value="发放">
-	
+		<p><strong><label>任务描述：</label></strong></p>
+		<textarea rows="3" cols="200" name="taskDescription" required="required">
+			
+		</textarea>
+		
+		<br>
+		<input type="submit" value="创建任务">
+		
+	</form>	
+		
+	</div>
 
-	</form>
+	<hr> 
+	<br>
+	<br>	
+
+	<div class="TabBox">
+	<table class="data-table" width="100%">
+      <thead>
+        <tr>
+          <th>序号</th>	
+          <!--th class="nosort">序号</th-->
+          <th>任务编号</th>
+          <th>申请部门</th>
+          <th>申请科室</th>
+          <th>使用人</th>
+          <th>使用人岗位</th>
+          <th>房间号</th>
+          <th>联系方式</th>
+          <th>任务类型</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+				<td><?php echo ($i); ?></td>
+				<td><?php echo ($vo['zichannum']); ?></td>
+				<td><?php echo ($vo['description']); ?></td>
+				<td><?php echo ($vo['bumen']); ?></td>
+				<td><?php echo ($vo['keshi']); ?></td>
+				<td><?php echo ($vo['user']); ?></td>
+				<td><?php echo ($vo['status']); ?></td>
+				<td><strong><a href="index.php?p=home&c=equipment&a=grantEquipment_info&zichanNum=<?php echo ($vo['zichannum']); ?>">发放</a></strong></td>
+			</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+      </tbody>
+    </table>
+	</div>
+	<!--TabBox-->
+
+<script src="/Public/js/jquery-1.11.1.min.js"></script> 
+<script src="/Public/js/jquery.dataTables.js"></script>
+<link rel="stylesheet" href="/Public/css/jquery.dataTables.css" />
+<style>
+.TabBox{height:500px;overflow-y:auto;overflow-x:hidden;}
+</style> 
+<script>
+$(document).ready(function(){
+	$('.data-table').dataTable({
+		"searching": false,  //是否允许Datatables开启本地搜索
+		"paging": true,  //是否开启本地分页
+		"lengthChange": false,  //是否允许用户改变表格每页显示的记录数
+		"info": true,   //控制是否显示表格左下角的信息
+		//"sScrollY" : 450, //DataTables的高  
+        //"sScrollX" : 820, //DataTables的宽  
+		"pageLength":10, //每页加载的数据条数
+		"columnDefs": [{
+			"targets": 'nosort',  //列的样式名
+			"orderable": false    //包含上样式名‘nosort’的禁止排序
+		}],
+
+		//"sScrollX": "100%", //是否开启水平滚动，以及指定滚动区域大小,可设值：'disabled','2000%'
+
+		"oLanguage": {
+                    "sProcessing": "正在加载中......",
+                    "sLengthMenu": "每页显示 _MENU_ 条记录",
+                    "sZeroRecords": "对不起，查询不到相关数据！",
+                    "sEmptyTable": "表中无数据存在！",
+                    "sInfo": "当前显示 _START_ 到 _END_ 条，共 _TOTAL_ 条记录",
+                    "sInfoFiltered": "数据表中共为 _MAX_ 条记录",
+                    "sSearch": "搜索",
+                    "oPaginate": {
+                        "sFirst": "首页",
+                        "sPrevious": "上一页",
+                        "sNext": "下一页",
+                        "sLast": "末页"
+                    }
+        } //多语言配置
+		//跟数组下标一样，第一列从0开始，这里表格初始化时，第四列默认降序
+        //"order": [3]  //asc升序   desc降序  "order": [[ 3, "desc" ]]默认第四列为降序排列
+	});
+});
 
 
-	<script type="text/javascript">
-
-	$('#bumen').click(function(){  
+$('#bumen').click(function(){  
           $(this).change(function(){
               var   bumen = $(this).val();  
               //var   type = $(this).attr('id');  
@@ -1654,8 +1684,7 @@
              });  
         }  
     ); 
-
-    </script> 
+</script>
 
 
 

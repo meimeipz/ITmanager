@@ -196,7 +196,7 @@
 					<!-- class "auto-inherit-active-class" will automatically add "active" class for parent elements who are marked already with class "active" -->
 
 
-					<li class="active opened active">
+					<li >
 						<a href="#">
 							<i class="linecons-desktop"></i>
 							<span class="title">设备管理</span>
@@ -242,37 +242,28 @@
 					</li>	
 					
 
-					<li >
+					<li class="active opened active">
 						<a href="#">
 							<i class="linecons-cog"></i>
-							<span class="title">配置管理</span>
+							<span class="title">任务管理</span>
 						</a>
 						<ul>
 							<li class="active">
-								<a href="#">
-									<span class="title">用户配置</span>
+								<a href="index.php?p=home&c=task&a=createTask">
+									<span class="title">任务创建</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<span class="title">设备配置</span>
+									<span class="title">任务实施</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<span class="title">资产配置</span>
+									<span class="title">任务查询</span>
 								</a>
 							</li>
-							<li>
-								<a href="#">
-									<span class="title">软件配置</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="title">运维配置</span>
-								</a>
-							</li>
+						
 						</ul>
 					</li>
 					

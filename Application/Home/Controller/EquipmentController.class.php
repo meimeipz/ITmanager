@@ -107,29 +107,9 @@ class EquipmentController extends Controller{
     	$roomNum = $_POST['roomNum'];
     	$status = $_POST['status'];
 
-    	/**
-    	dump($zichannum);
-    	dump($description);
-    	dump($serialNum);
-    	dump($bumen);
-    	dump($keshi);
-    	dump($user);
-    	dump($roomNum);
-    	dump($status);
-    	**/
-		
-    	
-
-    	$zicchanModel = new ZichansModel();
+     	$zicchanModel = new ZichansModel();
     	$zichannewModel = new ZichannewsModel();
 
-    	//dump($zichannewModel->updateInfo($zichannum,$bumen,$keshi,$roomNum,$status));
-
-    	//$result=$zichannewModel->updateInfo($zichannum,$bumen,$keshi,$roomNum,$status);
-
-    	//echo $zichannum,$bumen,$keshi,$roomNum,$status;
-
-    	
     	
     	if($zicchanModel->isCheck()==0){
 
@@ -141,9 +121,6 @@ class EquipmentController extends Controller{
     		$zichannewModel->updateInfo($zichanNum,$bumen,$keshi,$user,$roomNum,$status);
     	}
     	
-
-    	
-
     	$this->grantEquipment();
     		
     	

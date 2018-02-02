@@ -196,7 +196,7 @@
 					<!-- class "auto-inherit-active-class" will automatically add "active" class for parent elements who are marked already with class "active" -->
 
 
-					<li class="active opened active">
+					<li >
 						<a href="#">
 							<i class="linecons-desktop"></i>
 							<span class="title">设备管理</span>
@@ -242,37 +242,28 @@
 					</li>	
 					
 
-					<li >
+					<li class="active opened active">
 						<a href="#">
 							<i class="linecons-cog"></i>
-							<span class="title">配置管理</span>
+							<span class="title">任务管理</span>
 						</a>
 						<ul>
 							<li class="active">
 								<a href="#">
-									<span class="title">用户配置</span>
+									<span class="title">任务创建</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<span class="title">设备配置</span>
+									<span class="title">任务实施</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<span class="title">资产配置</span>
+									<span class="title">任务查询</span>
 								</a>
 							</li>
-							<li>
-								<a href="#">
-									<span class="title">软件配置</span>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<span class="title">运维配置</span>
-								</a>
-							</li>
+						
 						</ul>
 					</li>
 					
@@ -1569,49 +1560,40 @@ $(document).ready(function(){
 	$('.data-table').dataTable({
 		"searching": true,  //是否允许Datatables开启本地搜索
 		"paging": true,  //是否开启本地分页
-		"lengthChange": true,  //是否允许用户改变表格每页显示的记录数
-		"info": false,   //控制是否显示表格左下角的信息
+		"lengthChange": false,  //是否允许用户改变表格每页显示的记录数
+		"info": true,   //控制是否显示表格左下角的信息
+		//"sScrollY" : 450, //DataTables的高  
+        //"sScrollX" : 820, //DataTables的宽  
+		"pageLength":10, //每页加载的数据条数
 		"columnDefs": [{
 			"targets": 'nosort',  //列的样式名
 			"orderable": false    //包含上样式名‘nosort’的禁止排序
 		}],
+
+		//"sScrollX": "100%", //是否开启水平滚动，以及指定滚动区域大小,可设值：'disabled','2000%'
+
+		"oLanguage": {
+                    "sProcessing": "正在加载中......",
+                    "sLengthMenu": "每页显示 _MENU_ 条记录",
+                    "sZeroRecords": "对不起，查询不到相关数据！",
+                    "sEmptyTable": "表中无数据存在！",
+                    "sInfo": "当前显示 _START_ 到 _END_ 条，共 _TOTAL_ 条记录",
+                    "sInfoFiltered": "数据表中共为 _MAX_ 条记录",
+                    "sSearch": "搜索",
+                    "oPaginate": {
+                        "sFirst": "首页",
+                        "sPrevious": "上一页",
+                        "sNext": "下一页",
+                        "sLast": "末页"
+                    }
+        } //多语言配置
 		//跟数组下标一样，第一列从0开始，这里表格初始化时，第四列默认降序
-        "order": [3]  //asc升序   desc降序  "order": [[ 3, "desc" ]]默认第四列为降序排列
+        //"order": [3]  //asc升序   desc降序  "order": [[ 3, "desc" ]]默认第四列为降序排列
 	});
 });
 </script>
 
 
-	<!--
-
-	<div>
-		<table border="1">
-			<thead>
-				<tr>
-					<th>序号</th>
-					<th>资产编号</th>
-					<th>资产描述</th>
-				</tr>
-			</thead>	
-			<tbody>
-				<?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-					<td><?php echo ($vo['id']); ?></td>
-					<td><?php echo ($vo['zichanNum']); ?></td>
-					<td><?php echo ($vo['description']); ?></td>
-					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-			</tbody>	
-			</thead>
-					
-		</table>
-
-	
-	</div>
-
-	<hr>
-
-	-->
-
-	<!--<?php echo ($resutl['zichanNum']); ?>-->
 
 
 			</div>

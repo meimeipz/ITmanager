@@ -18,8 +18,8 @@ class ZichansModel extends \Think\Model{
  	public function getAll(){
 
  		$model=M('zichans');
-		//$result=$model->WHERE("user='郭杰华' OR user='库存'")->select();
-		$result=$model->select();		
+		$result=$model->WHERE("user='库存'")->select();
+		//$result=$model->select();		
  		return $result;	
  	}
 
